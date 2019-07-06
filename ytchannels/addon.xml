@@ -10,7 +10,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_US">Youtube Channels allows for easily sorting through your favorite subscriptions.</summary>
-        <description lang="en_US">Youtube Channels is support addon for the Kodi Youtube addon, providing an ability to create folders for subscriptions without needing an account.</description>
+        <description lang="en_US">Youtube Channels is a support addon for the Kodi Youtube addon, providing an ability to create folders for subscriptions without needing an account.</description>
         <platform>all</platform>
         <license>MIT</license>
         <source></source>
