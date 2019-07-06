@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.ytchannels" version="1.0.0" name="Youtube Channels" provider-name="mitigd">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="plugin.video.youtube" version="5.3.10"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.1" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_US">Youtube Channels allows for easily sorting through your favorite subscriptions.</summary>
+        <description lang="en_US">Youtube Channels is support addon for the Kodi Youtube addon, providing an ability to create folders for subscriptions without needing an account.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source></source>
+        <news></news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
