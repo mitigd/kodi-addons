@@ -227,7 +227,7 @@ def add_channel(folder):
         dict = []
         iconImages = []
 
-        pattern = re.findall('window\[\"ytInitialData\"\] = (.*?\"adSafetyReason\":{}});', match)[0]
+        pattern = re.findall('window\[\"ytInitialData\"\] = (.+);', match)[0]
 
         w_json('test.json', pattern)
         js = json.loads(pattern)
